@@ -1,0 +1,4 @@
+sample started.
+sys_vm_memory_map(0x10000000,...) returned 0x0
+sys_vm_append_memory(..., 0x100000) returned 0x80010004 on iteration 206
+sample finished.
