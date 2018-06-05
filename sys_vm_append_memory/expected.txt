@@ -1,4 +1,25 @@
-sample started.
-sys_vm_memory_map(0x10000000,...) returned 0x0
-sys_vm_append_memory(..., 0x100000) returned 0x80010004 on iteration 206
-sample finished.
+Sample started.
+Mapping 32MB of virtual memory with 1MB of physical memory used.
+Address: 0x40000000
+Mapping 32MB of virtual memory with 1MB of physical memory used.
+Address: 0x50000000
+Unmapping second map.
+sys_vm_get_statistics:
+pmem_total: 0x100000
+pmem_used: 0x0
+Appending 512MB in 1MB chunks.
+ERROR: sys_vm_append_memory(..., 0x100000) returned 0x80010004 on iteration 206
+sys_vm_get_statistics:
+pmem_total: 0xcf00000
+pmem_used: 0x0
+Unmapping.
+Mapping 256MB of virtual memory with 1MB of physical memory used.
+sys_vm_get_statistics:
+pmem_total: 0x100000
+pmem_used: 0x0
+Appending 512MB in 1MB chunks.
+ERROR: sys_vm_append_memory(..., 0x100000) returned 0x80010004 on iteration 206
+sys_vm_get_statistics:
+pmem_total: 0xcf00000
+pmem_used: 0x0
+Sample finished.
