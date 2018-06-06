@@ -1,0 +1,8 @@
+Sample started.
+sceNp2Init()
+sceNpManagerGetNpId()
+ERROR: sceNpManagerGetNpId() returned 0x8002aa0c
+_npId.handle.data=
+sceNpManagerRequestTicket2()
+ERROR: sceNpManagerRequestTicket2() returned 0x8002aa0c
+Sample finished.
