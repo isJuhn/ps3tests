@@ -1,0 +1,6 @@
+Sample started.
+cellGameDataCheck()
+cellGameCreateGameData()
+tmp_contentInfoPath: /dev_hdd0/game/_GDATA_2018060616270600982060
+tmp_usrdirPath: /dev_hdd0/game/_GDATA_2018060616270600982060/USRDIR
+Sample finished.
