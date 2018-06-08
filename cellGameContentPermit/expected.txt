@@ -1,0 +1,12 @@
+Sample started.
+cellGameDataCheck()
+contentInfoPath:
+usrdirPath:
+cellGameContentPermit()
+contentInfoPath:
+usrdirPath:
+cellGameContentPermit()
+ERROR: cellGameContentPermit returned 0x8002cb22
+contentInfoPath:
+usrdirPath:
+Sample finished.
