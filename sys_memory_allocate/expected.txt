@@ -1,0 +1,4 @@
+Sample started.
+ERROR: sys_memory_allocate(0x100000, 0x400, 0x0) returned 0x8001000d
+ERROR: sys_memory_allocate_from_container(0x100000, cid, 0x400, 0x0) returned 0x8001000d
+Sample finished.
