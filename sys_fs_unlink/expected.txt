@@ -1,0 +1,45 @@
+Sample started.
+cellGameDataCheck()
+cellGameCreateGameData()
+tmp_contentInfoPath: /dev_hdd0/game/_GDATA_2019011615415500686171
+tmp_usrdirPath: /dev_hdd0/game/_GDATA_2019011615415500686171/USRDIR
+file_path: /dev_hdd0/game/_GDATA_2019011615415500686171/USRDIR/kot.a
+Creating file
+Opening file again
+File FDs: 0x3, 0x4
+fstat first FD
+Stat: mode=0x8180, uid=0xffffffff, gid=0xffffffff, atime=0x5c3f50c4, mtime=0x5c3f50c4, ctime=0x5c3f50c4, size=0x0, blksize=0x200
+Write to file
+Unlinking file
+fstat both FDs
+Stat: mode=0x8180, uid=0xffffffff, gid=0xffffffff, atime=0x5c3f50c4, mtime=0x5c3f50c4, ctime=0x5c3f50c4, size=0x33, blksize=0x200
+Stat: mode=0x8180, uid=0xffffffff, gid=0xffffffff, atime=0x5c3f50c4, mtime=0x5c3f50c4, ctime=0x5c3f50c4, size=0x33, blksize=0x200
+stat path
+ERROR: sys_fs_stat("/dev_hdd0/game/_GDATA_2019011615415500686171/USRDIR/kot.a") returned 0x80010006
+Write to file
+nwrite: 0x33
+stat path
+ERROR: sys_fs_stat("/dev_hdd0/game/_GDATA_2019011615415500686171/USRDIR/kot.a") returned 0x80010006
+fstat both FDs
+Stat: mode=0x8180, uid=0xffffffff, gid=0xffffffff, atime=0x5c3f50c4, mtime=0x5c3f50c4, ctime=0x5c3f50c4, size=0x66, blksize=0x200
+Stat: mode=0x8180, uid=0xffffffff, gid=0xffffffff, atime=0x5c3f50c4, mtime=0x5c3f50c4, ctime=0x5c3f50c4, size=0x66, blksize=0x200
+Read FD
+nwrite: 0x0
+Writing 65k times
+Sleeping 3 sec
+Write to file
+nwrite: 0x33
+Close FD
+stat path
+ERROR: sys_fs_stat("/dev_hdd0/game/_GDATA_2019011615415500686171/USRDIR/kot.a") returned 0x80010006
+fstat both FDs
+ERROR: sys_fs_fstat(0x3) returned 0x8001002a
+Stat: mode=0x80000000, uid=0x73b68, gid=0x80000003, atime=0x0, mtime=0x0, ctime=0x80000000, size=0x80000000, blksize=0x80000000
+Stat: mode=0x8180, uid=0xffffffff, gid=0xffffffff, atime=0x5c3f50c4, mtime=0x5c3f50ce, ctime=0x5c3f50ce, size=0x330099, blksize=0x200
+Creating file
+new_path: /dev_hdd0/game/_GDATA_2019011615415500686171/USRDIR/kot.2
+Renaming file
+fstat FD
+stat old and new path
+ERROR: sys_fs_stat("/dev_hdd0/game/_GDATA_2019011615415500686171/USRDIR/kot.a") returned 0x80010006
+Sample finished.
